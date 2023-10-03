@@ -1,0 +1,5 @@
+Private och default får ej kombineras.
+
+By Default, methods are 'PUBLIC'.
+Så man behöver ej lägga till 'PUBLIC' på raden.
+
