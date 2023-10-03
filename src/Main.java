@@ -1,5 +1,6 @@
 import com.niklas.models.Cat;
 import com.niklas.models.Dog;
+import com.niklas.models.Squirrel;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,6 +9,10 @@ public class Main {
         // Instantiate Objects
         Cat kasper = new Cat();
         Dog fido = new Dog();
+        Squirrel benny = new Squirrel();
+
+        benny.eats(); // Abstract method - Implementation
+        benny.makeSound(); // Ordinary method
 
         kasper.name();
         kasper.move();
